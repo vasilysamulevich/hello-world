@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-13T07:47:35.759Z" agent="5.0 (X11)" etag="IKCGQC_gOf50jwtMWDV2" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-13T07:50:51.400Z" agent="5.0 (X11)" etag="Iamy85Z5phAk1N9sUmq6" version="13.9.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1628" dy="1633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6O8NtYyAk340rPlhaETI-54" value="Player" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="860" y="250" width="250" height="180" as="geometry">
+          <mxGeometry x="860" y="250" width="250" height="274" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -221,6 +221,27 @@
         </mxCell>
         <mxCell id="6O8NtYyAk340rPlhaETI-55" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
           <mxGeometry y="126" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-75" value="&lt;div align=&quot;left&quot;&gt;+Player()&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="134" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-76" value="&lt;div align=&quot;left&quot;&gt;+getPosition():Pair&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="154" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-77" value="&lt;div align=&quot;left&quot;&gt;+setPosition(coords:Pair)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="174" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-78" value="&lt;div align=&quot;left&quot;&gt;+setScores(val:int)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="194" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-79" value="&lt;div align=&quot;left&quot;&gt;+getScores():int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="214" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-80" value="&lt;div align=&quot;left&quot;&gt;+setReverse(val:bool)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="234" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6O8NtYyAk340rPlhaETI-82" value="&lt;div align=&quot;left&quot;&gt;+print()&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6O8NtYyAk340rPlhaETI-54">
+          <mxGeometry y="254" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6O8NtYyAk340rPlhaETI-58" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6O8NtYyAk340rPlhaETI-29" target="6O8NtYyAk340rPlhaETI-54">
           <mxGeometry width="160" relative="1" as="geometry">
