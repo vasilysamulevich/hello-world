@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T10:41:21.351Z" agent="5.0 (X11)" etag="DX8rl7w73n9abq58c7mU" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-10T10:41:44.262Z" agent="5.0 (X11)" etag="BojJ3EyKjfmw8VAoSawO" version="14.5.10" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="3139" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3940" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,7 +373,7 @@
             <mxPoint x="-2110" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CnJZR-867NADuVGLWDP9-31" value="position.x+cell_size*(1-abs(x)%2)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CnJZR-867NADuVGLWDP9-31" value="position.x+cell_size*(1-abs(x)%2)*sign(x)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2020" y="540" width="320" height="56" as="geometry" />
         </mxCell>
         <mxCell id="CnJZR-867NADuVGLWDP9-32" value="-7x^3/495 +7x^2/30-1207x/990+2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
