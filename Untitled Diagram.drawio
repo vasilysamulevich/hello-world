@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T20:16:12.839Z" agent="5.0 (X11)" etag="FgMutigYEJBDk0dZq1qW" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T21:35:03.173Z" agent="5.0 (X11)" etag="NeGQrBV4j41FTPQxiyqw" version="15.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2596" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -457,9 +457,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j1_erCObVobpXnONd0nw-4" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="3080" y="1241" width="540" height="514" as="geometry" />
+          <mxGeometry x="3080" y="1241" width="540" height="634" as="geometry" />
         </mxCell>
-        <mxCell id="grzV_4phDnwmopxn0Cy7-13" value="+enum Commands(MOVE,ATTACK)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
+        <mxCell id="grzV_4phDnwmopxn0Cy7-13" value="+enum Commands(MOVE,ATTACK,DEATH)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
           <mxGeometry y="26" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="grzV_4phDnwmopxn0Cy7-4" value="-position:Pair" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
@@ -507,8 +507,20 @@
         <mxCell id="grzV_4phDnwmopxn0Cy7-10" value="+move(direction:Directions):void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
           <mxGeometry y="454" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="grzV_4phDnwmopxn0Cy7-11" value="+attack():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
+        <mxCell id="grzV_4phDnwmopxn0Cy7-25" value="+move(field:Field*)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
           <mxGeometry y="484" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grzV_4phDnwmopxn0Cy7-23" value="+get_active_cell():Pair" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
+          <mxGeometry y="514" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grzV_4phDnwmopxn0Cy7-11" value="+attack():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
+          <mxGeometry y="544" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grzV_4phDnwmopxn0Cy7-24" value="+attack(field:Field*)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
+          <mxGeometry y="574" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grzV_4phDnwmopxn0Cy7-22" value="+~Player()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j1_erCObVobpXnONd0nw-4">
+          <mxGeometry y="604" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j1_erCObVobpXnONd0nw-9" value="Enemy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2240" y="1290" width="310" height="124" as="geometry" />
