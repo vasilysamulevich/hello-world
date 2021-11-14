@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-14T12:10:36.635Z" agent="5.0 (X11)" etag="golSVX1JhJQ_3FCUnIaX" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-14T12:10:46.017Z" agent="5.0 (X11)" etag="0RbSN18Xg_V9sViJxDCM" version="15.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3149" dy="2744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1181,7 +1181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aD1haNbtbT7zSy5eJOBC-47" value="Game_builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1170" y="229" width="280" height="416" as="geometry" />
+          <mxGeometry x="-1170" y="229" width="280" height="386" as="geometry" />
         </mxCell>
         <mxCell id="aD1haNbtbT7zSy5eJOBC-48" value="-mediator:Game_mediator*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -1201,29 +1201,26 @@
         <mxCell id="Cn_IzSMJPAIdCRDhl-NS-37" value="+add console_and_file_logger():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
           <mxGeometry y="146" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aD1haNbtbT7zSy5eJOBC-52" value="+add_logger():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
+        <mxCell id="Cn_IzSMJPAIdCRDhl-NS-6" value="&lt;i&gt;-create_field():Field*&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
           <mxGeometry y="176" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Cn_IzSMJPAIdCRDhl-NS-6" value="&lt;i&gt;-create_field():Field*&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
+        <mxCell id="aD1haNbtbT7zSy5eJOBC-54" value="+add_field():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
           <mxGeometry y="206" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aD1haNbtbT7zSy5eJOBC-54" value="+add_field():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
+        <mxCell id="Cn_IzSMJPAIdCRDhl-NS-8" value="-create_enemies():Enemies**" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
           <mxGeometry y="236" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Cn_IzSMJPAIdCRDhl-NS-8" value="-create_enemies():Enemies**" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
+        <mxCell id="aD1haNbtbT7zSy5eJOBC-57" value="+add_enemies():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
           <mxGeometry y="266" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aD1haNbtbT7zSy5eJOBC-57" value="+add_enemies():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
+        <mxCell id="Cn_IzSMJPAIdCRDhl-NS-9" value="&lt;i&gt;-create_player():Player*&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
           <mxGeometry y="296" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Cn_IzSMJPAIdCRDhl-NS-9" value="&lt;i&gt;-create_player():Player*&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aD1haNbtbT7zSy5eJOBC-47">
+        <mxCell id="aD1haNbtbT7zSy5eJOBC-56" value="+add_player():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
           <mxGeometry y="326" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aD1haNbtbT7zSy5eJOBC-56" value="+add_player():void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
-          <mxGeometry y="356" width="280" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="aD1haNbtbT7zSy5eJOBC-58" value="+get_result():Game_mediator*" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aD1haNbtbT7zSy5eJOBC-47" vertex="1">
-          <mxGeometry y="386" width="280" height="30" as="geometry" />
+          <mxGeometry y="356" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cd1nalmso-tlF89noWML-0" value="Agressive_move" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1850" y="2490" width="140" height="116" as="geometry" />
